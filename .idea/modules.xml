@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/node-tsconfig.iml" filepath="$PROJECT_DIR$/.idea/node-tsconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/express-starter.iml" filepath="$PROJECT_DIR$/.idea/express-starter.iml" />
     </modules>
   </component>
 </project>
