@@ -1,6 +1,11 @@
-// This program is a quine (self-replicating program)
-import { readFile } from 'node:fs/promises';
+import express from "express";
 
-const data = await readFile('src/server.ts', { encoding: 'utf8' });
+const app = express();
+const HOST = "localhost";
+const PORT = 3000;
 
-console.log(data);
+app.use(express.static('../public'));
+
+app.listen(PORT, HOST, () => {
+  console.log(`Express server listening at http://${HOST}:${PORT}`);
+});
