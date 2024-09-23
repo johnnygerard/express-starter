@@ -1,0 +1,10 @@
+{
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "start": "node .",
+    "start:watch": "node --watch ."
+  },
+  "type": "module"
+}
