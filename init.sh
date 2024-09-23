@@ -17,6 +17,10 @@ npm install --save-dev @tsconfig/node"$node_major_version"
 npm install --save-dev @types/node@"$node_major_version"
 npm install --save-dev typescript
 
+# Install Express server
+npm install express
+npm install --save-dev @types/express
+
 # Create tsconfig.json
 cat > tsconfig.json <<EOF
 {
