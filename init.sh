@@ -9,6 +9,9 @@ cd "$script_dir"
 git commit --amend --message 'chore: clone template repository'
 git push --force
 
+# Install Prettier
+npm install --save-dev --save-exact prettier
+
 # Install TypeScript dependencies for Node.js
 # Allowed major versions: 10, 12, 14, 16, 17, 18, 19, 20, 21, 22
 # See full list at https://github.com/tsconfig/bases?tab=readme-ov-file#table-of-tsconfigs
