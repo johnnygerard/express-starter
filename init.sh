@@ -9,8 +9,8 @@ git push --force
 repo_name="$(basename "$(realpath .)")"
 
 # Update WebStorm settings
-repo_name="$repo_name" perl -i -pe 's/mean-app-starter/$ENV{repo_name}/g' .idea/modules.xml
-mv .idea/mean-app-starter.iml ".idea/${repo_name}.iml"
+repo_name="$repo_name" perl -i -pe 's/express-starter/$ENV{repo_name}/g' .idea/modules.xml
+mv .idea/express-starter.iml ".idea/${repo_name}.iml"
 
 # Commit changes
 git add .
